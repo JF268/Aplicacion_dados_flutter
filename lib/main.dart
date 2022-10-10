@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
                 child: Image.asset("assets/images/dice$DadoIzquierdo.png",),),
               ),
               Expanded(child: TextButton(onPressed: () {
-                DadoDerecho =Random().nextInt(6)+1;
+                DadoDerecho =Random().nextInt(6)+1;  // de 0  a 5 pero sumandole + 1 
                 setState(() {
                   
                 });
